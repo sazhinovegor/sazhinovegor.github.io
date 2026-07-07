@@ -1,14 +1,21 @@
 .imagine {
+    display: flex;
     width: 300px;
     height: 300px;
-    border-radius:40%;
+    justify-content: center;
+    border-radius: 0; 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    padding: 5px; 
+    background: #121212; 
+    border-radius: 50%;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); 
 }
 
 
 
 .hat {
     display: flex;
-    
+    justify-content: center;
     
    
 }
@@ -18,7 +25,7 @@
     display: block;
     margin: 25px 0;
     font-size: 40px;
-    font-family:"IBM Plex Serif", serif;
+    font-family: "JetBrains Mono", monospace;
     
 }
 
@@ -39,29 +46,52 @@
 .portfolio {
     
     display: flex;
-    font-family: "IBM Plex Serif", serif;
-    font-size: 30px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 32px;
+    font-weight: 700;
     justify-content: center;
     margin-top: 200px;
 }
 
 
 .fa {
-    font-family: "IBM Plex Serif", serif;
-    font-size: 30px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 32px;
+    font-weight: 700;
     display: flex;
     justify-content: center;
 }
 
 
 .tr {
-    font-family: "IBM Plex Serif", serif;
+    font-family: "JetBrains Mono", monospace;
     font-size: 20px;
     display: flex;
     padding: 30px;
     justify-content: center;
    
-    font-style: oblique;
-    font-weight: bold;
+
     
+}
+
+
+
+
+body {
+    background-color: #1a1a1a;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+    background-size: 24px 24px; 
+     color: #ffffff;
+     margin: 0;
+}
+.op {
+    display: flex;
+    justify-content: center;
+    font-family: "JetBrains Mono", monospace;
+    border: 1px dashed rgba(255, 255, 255, 0.3);
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.02);
 }
